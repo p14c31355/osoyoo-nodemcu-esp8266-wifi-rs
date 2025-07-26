@@ -1,0 +1,6 @@
+[package]
+name = "osoyoo-nodemcu-esp8266-wifi-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
