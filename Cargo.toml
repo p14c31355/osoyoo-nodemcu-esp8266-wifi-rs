@@ -4,3 +4,11 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+# esp8266-hal のバージョンをREADMEに合わせて0.10.0に下げるか、
+# 最新版の0.12.0で試してみてください。ここでは0.12.0と仮定。
+esp8266-hal = { version = "0.5.1", features = ["async", "print-rts", "print-tx", "rt"] }
+esp-println = { version = "0.15.0", features = ["uart"] }
+# 以下はもし使わないなら削除してもOK
+# esp-backtrace = { version = "0.10.0", features = ["esp8266", "panic-handler", "print-uart"] }
+# embedded-hal = { version = "0.2.7", features = ["defmt"] }
+# nb = "1.1.0"

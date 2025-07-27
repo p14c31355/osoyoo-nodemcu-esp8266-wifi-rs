@@ -1,0 +1,4 @@
+# rust-toolchain.toml
+[toolchain]
+channel = "nightly"
+# target = "xtensa-esp8266-elf" # この行が重要！
